@@ -119,3 +119,10 @@ header {
     background: -webkit-linear-gradient(to right, #ffba73, #ffb2b2);
     background: linear-gradient(to right, #ffba73, #ffb2b2);
 }
+
+footer {
+    color: #808080;
+    background: #e5e5e5;
+    text-align: center;
+    padding: 30px;
+}
