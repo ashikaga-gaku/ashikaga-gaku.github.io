@@ -15,7 +15,9 @@ header {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    background-color: #def7ff;
+    /* background-color: #fedcbd; */
+    background: -webkit-linear-gradient(to right, #ffba73, #ffb2b2);
+    background: linear-gradient(to right, #ffba73, #ffb2b2);
 }
 
 #title {
@@ -49,6 +51,11 @@ header {
 .image {
     text-align: center;
     margin: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
 }
 
 #browser {
@@ -97,7 +104,18 @@ header {
     transform: translateY(3px);
 }
 
-.button {
-    display: flex;
-    justify-content: center;
+#how-to-play:after {
+    content: "";
+    display: block;
+    height: 4px;
+    background: -webkit-linear-gradient(to right, #ffba73, #ffb2b2);
+    background: linear-gradient(to right, #ffba73, #ffb2b2);
+}
+
+#about-Ashikaga-gaku:after {
+    content: "";
+    display: block;
+    height: 4px;
+    background: -webkit-linear-gradient(to right, #ffba73, #ffb2b2);
+    background: linear-gradient(to right, #ffba73, #ffb2b2);
 }
